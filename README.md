@@ -31,7 +31,7 @@
 </td>
 <td width="50%" valign="top">
 
-### 🛒 [Product CRUD Web](./Input-ProductandDelete%20web)
+### 🛒 [Product CRUD Web](./Product (Add & Delete)%20web)
 
 ระบบจัดการสินค้า เพิ่ม / ดูรายการ / ลบ เชื่อมต่อฐานข้อมูลจริง
 
