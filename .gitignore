@@ -1,0 +1,40 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== Editors / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Python (เผื่อมี projects/notebooks) =====
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ===== Node (เผื่อมี projects ฝั่ง web-dev) =====
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+.cache/
+
+# ===== ไฟล์ส่วนตัวที่ไม่อยากขึ้น repo =====
+private/
+*.secret
+*.key
