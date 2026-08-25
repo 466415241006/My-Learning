@@ -10,9 +10,9 @@ app.use(cors());
 const db = new Pool({
     user : 'postgres',
     host : 'localhost',
-    database : 'Test01',
-    password : '1234',
-    port : '5432',
+    database : '******',
+    password : '****',
+    port : '****',
 });
 
 app.post('/api/register',async(req,res)=>{
