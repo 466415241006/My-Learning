@@ -41,4 +41,20 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 [Login and Register](./LoginandRegister)
+
+ระบบสมัครสมาชิก/เข้าสู่ระบบ hash รหัสผ่านด้วย bcrypt เชื่อมต่อฐานข้อมูลจริง
+
+`Node.js` `Express` `PostgreSQL` `bcrypt`
+
+**สถานะ:** 🟢 ใช้งานได้
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
 </table>
