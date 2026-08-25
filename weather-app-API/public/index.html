@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สภาพอากาศ</title>
+    <style>
+        body {font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f2f5;}
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .temp { font-size: 3rem; font-weight: bold; color: #ff6b6b; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 id="city">กำลังโหลด...</h1>
+        <div class="temp"><span id="temp">-</span> °C</div>
+        <p>ความชื้น: <span id="humidity">-</span>%</p>
+        <p>ความเร็วลม: <span id="windSpeed">-</span>km/h</p>
+    </div>
+
+    <script>
+        async function getWeather(){
+            const res = await fetch('/api/weather');
+            const data = await res.json();
+
+            document.getElementById('city').innerText = data.city;
+            document.getElementById('temp').innerText = data.temperature;
+            document.getElementById('humidity').innerText = data.humidity;
+            document.getElementById('windSpeed').innerText = data.windSpeed;
+        }
+        getWeather();
+    </script>
+    
+</body>
+</html>
