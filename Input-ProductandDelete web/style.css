@@ -1,0 +1,18 @@
+.fill-btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 44px;
+    margin: 50px;
+    color: blueviolet;
+    background: transparent;
+    border: 2px solid #7c5cff;
+    transition: color 0.4s ese;
+}
+
+.abd {
+    flex: content;
+    margin-left: 1000px;
+    background: black;
+    color: rgb(214, 15, 15);
+}
